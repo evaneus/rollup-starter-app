@@ -1,3 +1,20 @@
+# cross-fetch in rollup test
+
+Testing loading `graphql-request` lib which uses cross-fetch-polyfill in a rollup build.
+
+This is the default rollup starter app with only `graphql-request` lib added.
+
+Test:
+
+`npm install`
+`npm run dev`
+
+results in ```
+index.es.js:132 Uncaught ReferenceError: require is not defined
+    at index.es.js:132
+    at main.js:9
+```
+
 # rollup-starter-app
 
 This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
