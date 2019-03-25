@@ -7,9 +7,12 @@ This is the default rollup starter app with only `graphql-request` lib added.
 Test:
 
 `npm install`
+
 `npm run dev`
 
-results in ```
+results in this error in browser console:
+
+```
 index.es.js:132 Uncaught ReferenceError: require is not defined
     at index.es.js:132
     at main.js:9
